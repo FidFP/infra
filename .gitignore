@@ -1,0 +1,31 @@
+# Secrets et configurations locales
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+*.p12
+*.kdbx
+secrets/
+credentials/
+
+# Exports susceptibles de contenir des données sensibles
+exports-prives/
+sauvegardes/
+backups/
+
+# Fichiers temporaires
+*.tmp
+*.bak
+*.log
+~$*
+.DS_Store
+Thumbs.db
+tmp/
+
+# Audits locaux susceptibles de contenir des informations réseau
+local-audit/
+*.drtax-audit.json
+
+
